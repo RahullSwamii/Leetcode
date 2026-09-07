@@ -1,11 +1,13 @@
 class Solution {
+
+    
+        // first make the function which tells us is the input is vowel or not
             boolean isVowel(char ch){
             return "aeiou".indexOf(ch)!=-1;
         }
 
     public int maxVowels(String s, int k) {
 
-        // first make the function which tells us is the input is vowel or not
         int max =0;
         int count = 0;
 
